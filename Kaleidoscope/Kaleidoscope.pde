@@ -1,3 +1,5 @@
+//Kaleidoscope Project
+//Justin Whitfield
 float d;
 float speed=2;
 float ydirection =1;
@@ -7,7 +9,7 @@ void setup() {
   strokeWeight(5);
   d = height/2;
 }
-
+//Draw used to set background,create lines for Kaleidoscope, and control bounce at center
 void draw() {
   background(#FF74D8);
   
